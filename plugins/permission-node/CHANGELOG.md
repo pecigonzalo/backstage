@@ -1,5 +1,16 @@
 # @backstage/plugin-permission-node
 
+## 0.6.0-next.2
+
+### Minor Changes
+
+- 322b69e46a: **BREAKING:** `ServerPermissionClient` now implements `PermissionEvaluator`, which moves out the capabilities for evaluating conditional decisions from `authorize()` to `authorizeConditional()` method.
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/plugin-permission-common@0.6.0-next.1
+
 ## 0.6.0-next.1
 
 ### Minor Changes

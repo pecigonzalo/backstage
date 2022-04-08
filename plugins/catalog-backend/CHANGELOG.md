@@ -1,5 +1,14 @@
 # @backstage/plugin-catalog-backend
 
+## 1.1.0-next.3
+
+### Patch Changes
+
+- 23646e51a5: Use new `PermissionEvaluator#authorizeConditional` method when retrieving permission conditions.
+- Updated dependencies
+  - @backstage/plugin-permission-common@0.6.0-next.1
+  - @backstage/plugin-permission-node@0.6.0-next.2
+
 ## 1.1.0-next.2
 
 ### Minor Changes
